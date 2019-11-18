@@ -619,7 +619,6 @@ class Pagination extends React.Component {
           [`${prefixCls}-disabled`]: disabled,
         })}
         style={props.style}
-        unselectable="unselectable"
         ref={this.savePaginationNode}
         {...dataOrAriaAttributeProps}
       >
